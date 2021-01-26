@@ -7,8 +7,8 @@ pagetitle: "Ya-Feng (Jay) Wen"
 
 <img src="images/yafengwen_github_round.png" alt="jaywen_headshot" style="width:25%; margin-right: 20px; margin-top: 5px" align="left">
 
-I am an PhD Candidate at the University of Minnesota in the Department of Experimental and Clinical Pharmacology, College of Pharmacy. I am also a licensed Pharmacist in Minnesota.
+I am a PhD Candidate at the University of Minnesota in the [Department of Experimental and Clinical Pharmacology, College of Pharmacy](https://www.pharmacy.umn.edu/departments/experimental-and-clinical-pharmacology). I am also a licensed Pharmacist in Minnesota.
 
 My research interests are in pharmacotherapy, pharmacogenomics, and pharmacometrics., with applications to cardiovascular diseases.
 
-I earned my Doctoral of Pharmacy in 2017 from the University of Minnesota-Duluth. 
+I earned my Doctoral of Pharmacy in 2017 from [the University of Minnesota-Duluth](https://www.pharmacy.umn.edu/about/our-campuses/duluth). 
