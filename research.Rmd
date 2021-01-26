@@ -6,7 +6,7 @@ pagetitle: "Ya-Feng (Jay) Wen"
 
 <img src="images/thesis_graphical_abstract.png" alt="graphical_abstract" style="width:25%; border:2px solid; margin-right: 20px; margin-top: 5px" align="left">
 
-The central goal of my research is to develop an individualized strategy to combine knowledge of host characteristic (e.g., genomics and microbiota) and individual factors (e.g., co-morbidities, co-administered medications, diet, etc.) to reduce cardiovascular (CV) diseases and its related comorbidities. Integrating complex study designs and data analysis techniques require time and training. Receiving an ECP fellowship will enable me to devote a greater amount of time to conduct research and attend critical workshops to advance my research capacity and capabilities. Receiving an ECP fellowship would also profoundly impact my academic progression towards my goal of positively impacting the health of understudied and underrepresented populations in our community.
+The central goal of my research is to develop an individualized strategy to combine knowledge of host characteristic (e.g., genomics and microbiota) and individual factors (e.g., co-morbidities, co-administered medications, diet, etc.) to reduce cardiovascular (CV) diseases and its related comorbidities. This strategy is expected to positively impact the severity of illness, mortality and healthcare costs for those with gout and potentially patients with many other related diseases. 
 
 My thesis projects include: 
 
