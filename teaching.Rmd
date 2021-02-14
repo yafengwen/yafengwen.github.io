@@ -4,25 +4,36 @@ pagetitle: "Ya-Feng (Jay) Wen"
 ---
 <link rel="stylesheet" href="academicons-1.9.1/css/academicons.min.css"/>
 
-## Tutorials
+<!-- ## Tutorials -->
 
-Will add more tutorials focusing on therapy, pharmcogenomics, and pharmacometrics.
+<!-- Will add more tutorials focusing on therapy, pharmcogenomics, and pharmacometrics. -->
+<br />
+
+## Teaching
+
+#### Fall 2017-2020: Cardiovascular Pharmacotherapy, College of Pharmacy, the University of Minnesota
+  
+  - Hypertension
+  
+  - Evidence based medicine
+  
+  - Team-based learning activities
 
 
-## Adjunct professor classes
+#### Spring 2018-2020: Pharmacogenomics, College of Pharmacy, the University of Minnesota
+  
+  - Warfarin pharmacogneomics [Genotype-Guided Warfarin Dosing Prediction Tool](https://yafeng-wen.shinyapps.io/warfarindosingcalculation/)
+  
+  - Drug-drug gene interactions (phenoconversion)
 
-Fall 2020, 2019: Cardiovascular Pharmacotherapy, College of Pharmacy, the University of Minnesota
-
-Spring 2019, 2018: Pharmacogenomics, College of Pharmacy, the University of Minnesota
-
+<br />
 
 ## Teaching assistant classes
 
-Spring 2019: Kidney Fuild and Electrolyte, College of Pharmacy, the University of Minnesota
+#### Spring 2019: Kidney Fuild and Electrolyte, College of Pharmacy, the University of Minnesota
 
-Spring 2018: Diabetes and Metabolic Syndrome, College of Pharmacy, the University of Minnesota
+#### Spring 2018: Diabetes and Metabolic Syndrome, College of Pharmacy, the University of Minnesota
 
-<br />
 <br />
 
 #### Contributed Book Chapters

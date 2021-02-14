@@ -6,7 +6,13 @@ pagetitle: "Ya-Feng (Jay) Wen"
 
 <img src="images/thesis_graphical_abstract.png" alt="graphical_abstract" style="width:25%; border:2px solid; margin-right: 20px; margin-top: 5px" align="left">
 
-The central goal of my research is to develop an individualized strategy to combine knowledge of host characteristic (e.g., genomics and microbiota) and individual factors (e.g., co-morbidities, co-administered medications, diet, etc.) to reduce cardiovascular (CV) diseases and its related comorbidities. This strategy is expected to positively impact the severity of illness, mortality and healthcare costs for those with gout and potentially patients with many other related diseases. 
+<br />
+
+**The central goal** of my research is to develop an individualized strategy to combine knowledge of host characteristic (e.g., genomics and microbiota) and individual factors (e.g., co-morbidities, co-administered medications, diet, etc.) to reduce cardiovascular (CV) diseases and its related comorbidities. This strategy is expected to positively impact the severity of illness, mortality and healthcare costs for those with gout and potentially patients with many other related diseases. 
+
+<br />
+
+<br />
 
 My thesis projects include: 
 

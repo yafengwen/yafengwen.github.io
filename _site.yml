@@ -8,17 +8,17 @@ navbar:
     - text: "Teaching"
       href: teaching.html
   right:
-    - icon: fa-envelope fa-lg
+    - icon: fa-envelope fa
       href: contact.html
     - icon: ai-google-scholar ai-lg
       href: https://scholar.google.com/citations?user=sQRdtpAAAAAJ&hl=en
     - icon: ai-cv ai-lg
       href: ./files/Ya-Feng_Wen_CV_01032021.pdf
-    - icon: fa-github fa-lg
+    - icon: fa-github fa
       href: http://github.com/yafengwen
-    - icon: fa-twitter fa-lg
+    - icon: fa-twitter fa
       href: https://twitter.com/yafengwen
-    - icon: fa-linkedin fa-lg
+    - icon: fa-linkedin fa
       href: https://www.linkedin.com/in/yafengwen/
 output:
   html_document:

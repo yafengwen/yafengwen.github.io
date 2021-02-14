@@ -3,7 +3,7 @@ title: " "
 pagetitle: "Ya-Feng (Jay) Wen"
 ---
 <link rel="stylesheet" href="academicons-1.9.1/css/academicons.min.css"/>
-
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"> -->
 
 <img src="images/yafengwen_github_round.png" alt="jaywen_headshot" style="width:25%; margin-right: 20px; margin-top: 5px" align="left">
 
