@@ -1,0 +1,19 @@
+[
+  {
+    "path": "posts/2022-06-27-build-personal-webiste/",
+    "title": "build-personal-webiste",
+    "description": "Build a personal website with Distill package",
+    "author": [
+      {
+        "name": "Ya-Feng Wen",
+        "url": {}
+      }
+    ],
+    "date": "2022-06-27",
+    "categories": [],
+    "contents": "\r\nThis post will demonstrate how to building a personal website with Distill package and host on github\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-06-27T16:45:38-07:00",
+    "input_file": {}
+  }
+]

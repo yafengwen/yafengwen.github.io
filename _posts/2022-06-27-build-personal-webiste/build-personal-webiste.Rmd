@@ -1,0 +1,19 @@
+---
+title: "Building a personal website"
+description: |
+  Build a personal website with Distill package and host on github
+author:
+  - name: Ya-Feng Wen
+    url: 
+date: 2022-06-27
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+This post will demonstrate how to building a personal website with Distill package and host on github

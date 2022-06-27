@@ -1,0 +1,48 @@
+---
+title: "Teaching"
+description:
+author:
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<!-- ## Tutorials -->
+
+<!-- Will add more tutorials focusing on therapy, pharmcogenomics, and pharmacometrics. -->
+
+<br />
+
+## Courses
+
+1. Fall 2017-2020: **Cardiovascular Pharmacotherapy**, College of Pharmacy, the University of Minnesota
+  
+- Hypertension
+- Evidence based medicine
+- Team-based learning activities
+
+<br />
+
+2. Spring 2018-2020: **Pharmacogenomics**, College of Pharmacy, the University of Minnesota
+  
+- Warfarin pharmacogneomics [Genotype-Guided Warfarin Dosing Prediction Tool](https://yafeng-wen.shinyapps.io/warfarindosingcalculation/)
+- Drug-drug gene interactions (phenoconversion)
+
+
+<br />
+
+## Contributed Book Chapters
+
+1.	Hough R, **Wen YF**, Huff JT, Kibert J, Finks SW. Hypertension; Chapter in Pharmacotherapy Principles & Practice, Sixth Edition by Marie A. Chisholm-Burns, Terry L. Schwinghammer, Barbara G. Wells, Patrick M. Malone, Jill M. Kolesar, Joseph T. DiPiro McGraw-Hill 2020. (In print)
+2.	**Wen YF**, Hough R, Parra D, Straka RJ. Consensus Document on Improving Hypertension Management in Asian Patients." Pharmacotherapy Updates, 2 December 2019. McGraw-Hill, New York, NY, 2019. AccessPharmacy. (Available online: https://z.umn.edu/ppp_htn_update)
+3.	Van Hooser J, **Wen YF**, Hager KD. Hypertension: Newly Diagnosed; Chapter 2 in Pharmacotherapy Principles and Practice Study Guide: A Case-Based Care Plan Approach, First Edition by Michael D. Katz, Kathhryn R Matthias, Marie A Chisholm-Burns McGraw-Hill 2019 (Available online through AccessPharmacy)
+4.	Van Hooser J, **Wen YF**, Hager KD. Uncontrolled Hypertension; Chapter 3 in Pharmacotherapy Principles and Practice Study Guide: A Case-Based Care Plan Approach, First Edition by Michael D. Katz, Kathhryn R Matthias, Marie A Chisholm-Burns McGraw-Hill 2019 (Available online through AccessPharmacy)
+5.	Hough R, **Wen YF**, Cave B, Parra D, Straka RJ. Hypertension; Chapter in Pharmacotherapy Principles & Practice, Fifth Edition by Marie A. Chisholm-Burns, Terry L. Schwinghammer, Barbara G. Wells, Patrick M. Malone, Jill M. Kolesar, Joseph T. DiPiro McGraw-Hill 2018.
+
+
+<br />
+<br />
+This page last modified: `r Sys.Date()`

@@ -1,0 +1,46 @@
+---
+title: "Ya-Feng (Jay) Wen"
+pagetitle: "Ya-Feng (Jay) Wen"
+image: "images/yafengwen_github_round.png"
+links:
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/yafengwen/"
+  - label: Twitter
+    url: "https://twitter.com/yafengwen"
+  - label: GitHub
+    url: "http://github.com/yafengwen"
+  - label: Email
+    url: "mailto:wen771988@gmail.com"
+output:
+  postcards::trestles
+site: distill::distill_website
+---
+ 
+## Bio
+
+My research interests are in pharmacotherapy, pharmacogenomics, and pharmacometrics.
+
+I earned my Doctoral of Pharmacy in 2017 from [the University of Minnesota-Duluth](https://www.pharmacy.umn.edu/about/our-campuses/duluth) and Ph.D. in Experimental and Clinical Pharmacology at the University of Minnesota in the [Department of Experimental and Clinical Pharmacology, College of Pharmacy](https://www.pharmacy.umn.edu/departments/experimental-and-clinical-pharmacology). I am also a licensed Pharmacist in Minnesota.
+
+
+## Education
+
+**University of Minnesota** | Minneapolis, MN
+
+Ph.D. in Experimental and Clinical Pharmacology | September 2017 - March 2022
+
+**University of Minnesota** | Duluth, MN
+
+Pharm.D. | September 2013 - May 2017
+
+**Taipei Medical University** | Taipei, Taiwan
+
+B.S. in Pharmacy | September 2006 - May 2010
+
+
+
+## Experience
+
+**Gilead Science** | Clinical Pharmacologist | April 2022 - Present
+
+**University of Minnesota** | Teaching/Research Assistant | September 2017 - March 2022
