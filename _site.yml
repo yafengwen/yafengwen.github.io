@@ -4,6 +4,7 @@ description: |
   A website to share knowledge in clinical pharmacology, including pharmacotherapy, 
   study design, pharmacogemomics, pharmacometrics
 output_dir: "docs"
+theme: theme.css
 navbar:
   right:
     - text: "Post"
