@@ -65,24 +65,39 @@ d-appendix {
   --text-color:       rgba(255, 255, 255, 0.8);
   --text-size:        15px;
   --hover-color:      white;
-  --bkgd-color:       #0F2E3D;
+  --bkgd-color:       #006B85; /* edited */
 }
 
 .distill-site-footer {
   --text-color:       rgba(255, 255, 255, 0.8);
   --text-size:        15px;
   --hover-color:      white;
-  --bkgd-color:       #0F2E3D;
+  --bkgd-color:       #006B85; /* edited */
 }
 
 /*-- Additional custom styles --*/
-/* Add any additional CSS rules below                      */
+/* Add any additional CSS rules below --*/
 
 /*Change color of links*/
 a {
 color: #62A87C;
 }
 
+/* Change link appearance */
+d-article a {
+  border-bottom: 2px solid #006B85;
+  text-decoration: none;
+}
+
+/* mouse over link */
+/*#main a:hover {
+  color: #62A87C;
+}
+
+/* selected link */
+/*#main a:active {
+  color: #62A87C;
+}
 
 /*Change header colors*/
 h1, h2 {
@@ -106,11 +121,19 @@ li {
   font-size: 16px;
 }
 
+/* Change bullets */
+ul > li::marker {
+  font-size: 1.125em;
+  color: #ff414b;
+}
+
 /*Change marker colors*/
 li::marker {
   font-size: 1.125em;
   color: #077187;
 }
+
+
 
 /*Change button colors*/
 /*.btn {

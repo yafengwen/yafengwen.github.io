@@ -88,9 +88,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-<title>Ya-Feng Wen: build-personal-webiste</title>
+<title>Ya-Feng Wen: Building a personal website</title>
 
-<meta property="description" itemprop="description" content="Build a personal website with Distill package"/>
+<meta property="description" itemprop="description" content="Build a personal website with Distill and postcards package and host it on github"/>
 
 
 <!--  https://schema.org/Article -->
@@ -99,27 +99,27 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <meta name="article:author" content="Ya-Feng Wen"/>
 
 <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-<meta property="og:title" content="Ya-Feng Wen: build-personal-webiste"/>
+<meta property="og:title" content="Ya-Feng Wen: Building a personal website"/>
 <meta property="og:type" content="article"/>
-<meta property="og:description" content="Build a personal website with Distill package"/>
+<meta property="og:description" content="Build a personal website with Distill and postcards package and host it on github"/>
 <meta property="og:locale" content="en_US"/>
 <meta property="og:site_name" content="Ya-Feng Wen"/>
 
 <!--  https://dev.twitter.com/cards/types/summary -->
 <meta property="twitter:card" content="summary"/>
-<meta property="twitter:title" content="Ya-Feng Wen: build-personal-webiste"/>
-<meta property="twitter:description" content="Build a personal website with Distill package"/>
+<meta property="twitter:title" content="Ya-Feng Wen: Building a personal website"/>
+<meta property="twitter:description" content="Build a personal website with Distill and postcards package and host it on github"/>
 
 <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["build-personal-webiste"]},{"type":"character","attributes":{},"value":["Build a personal website with Distill package"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Ya-Feng Wen"]},{"type":"NULL"}]}]},{"type":"character","attributes":{},"value":["2022-06-27"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Building a personal website"]},{"type":"character","attributes":{},"value":["Build a personal website with Distill and postcards package and host it on github"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Ya-Feng Wen"]}]}]},{"type":"character","attributes":{},"value":["2022-06-27"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"NULL"}
+  {"type":"character","attributes":{},"value":["build-personal-webiste_files/anchor-4.2.2/anchor.min.js","build-personal-webiste_files/bowser-1.9.3/bowser.min.js","build-personal-webiste_files/distill-2.2.21/template.v2.js","build-personal-webiste_files/header-attrs-2.14/header-attrs.js","build-personal-webiste_files/jquery-3.6.0/jquery-3.6.0.js","build-personal-webiste_files/jquery-3.6.0/jquery-3.6.0.min.js","build-personal-webiste_files/jquery-3.6.0/jquery-3.6.0.min.map","build-personal-webiste_files/popper-2.6.0/popper.min.js","build-personal-webiste_files/tippy-6.2.7/tippy-bundle.umd.min.js","build-personal-webiste_files/tippy-6.2.7/tippy-light-border.css","build-personal-webiste_files/tippy-6.2.7/tippy.css","build-personal-webiste_files/tippy-6.2.7/tippy.umd.min.js","build-personal-webiste_files/webcomponents-2.0.0/webcomponents.js","images/build_website_RStudio.png","images/github_deploy.png","images/index.png","images/personal_site_github_setup.png","images/personal_site_RStudio_setup.png","images/site_yml.png","images/site_yml_theme.png","images/theme.png"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
 <meta name="distill:offset" content="../.."/>
@@ -2074,6 +2074,380 @@ document.addEventListener('DOMContentLoaded', function() {
 
 </script>
 
+<style type="text/css">
+/* base variables */
+
+/* Edit the CSS properties in this file to create a custom
+   Distill theme. Only edit values in the right column
+   for each row; values shown are the CSS defaults.
+   To return any property to the default,
+   you may set its value to: unset
+   All rows must end with a semi-colon.                      */
+
+/* Optional: embed custom fonts here with `@import`          */
+/* This must remain at the top of this file.                 */
+
+
+
+html {
+  /*-- Main font sizes --*/
+  --title-size:      50px;
+  --body-size:       1.06rem;
+  --code-size:       14px;
+  --aside-size:      12px;
+  --fig-cap-size:    13px;
+  /*-- Main font colors --*/
+  --title-color:     #000000;
+  --header-color:    rgba(0, 0, 0, 0.8);
+  --body-color:      rgba(0, 0, 0, 0.8);
+  --aside-color:     rgba(0, 0, 0, 0.6);
+  --fig-cap-color:   rgba(0, 0, 0, 0.6);
+  /*-- Specify custom fonts ~~~ must be imported above   --*/
+  --heading-font:    sans-serif;
+  --mono-font:       monospace;
+  --body-font:       sans-serif;
+  --navbar-font:     sans-serif;  /* websites + blogs only */
+}
+
+/*-- ARTICLE METADATA --*/
+d-byline {
+  --heading-size:    0.6rem;
+  --heading-color:   rgba(0, 0, 0, 0.5);
+  --body-size:       0.8rem;
+  --body-color:      rgba(0, 0, 0, 0.8);
+}
+
+/*-- ARTICLE TABLE OF CONTENTS --*/
+.d-contents {
+  --heading-size:    18px;
+  --contents-size:   13px;
+}
+
+/*-- ARTICLE APPENDIX --*/
+d-appendix {
+  --heading-size:    15px;
+  --heading-color:   rgba(0, 0, 0, 0.65);
+  --text-size:       0.8em;
+  --text-color:      rgba(0, 0, 0, 0.5);
+}
+
+/*-- WEBSITE HEADER + FOOTER --*/
+/* These properties only apply to Distill sites and blogs  */
+
+.distill-site-header {
+  --title-size:       18px;
+  --text-color:       rgba(255, 255, 255, 0.8);
+  --text-size:        15px;
+  --hover-color:      white;
+  --bkgd-color:       #0F2E3D;
+}
+
+.distill-site-footer {
+  --text-color:       rgba(255, 255, 255, 0.8);
+  --text-size:        15px;
+  --hover-color:      white;
+  --bkgd-color:       #0F2E3D;
+}
+
+/*-- Additional custom styles --*/
+/* Add any additional CSS rules below                      */
+</style>
+<style type="text/css">
+/* base variables */
+
+/* Edit the CSS properties in this file to create a custom
+   Distill theme. Only edit values in the right column
+   for each row; values shown are the CSS defaults.
+   To return any property to the default,
+   you may set its value to: unset
+   All rows must end with a semi-colon.                      */
+
+/* Optional: embed custom fonts here with `@import`          */
+/* This must remain at the top of this file.                 */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+html {
+  /*-- Main font sizes --*/
+  --title-size:      50px;
+  --body-size:       1.06rem;
+  --code-size:       14px;
+  --aside-size:      12px;
+  --fig-cap-size:    13px;
+  /*-- Main font colors --*/
+  --title-color:     #000000;
+  --header-color:    rgba(0, 0, 0, 0.8);
+  --body-color:      rgba(0, 0, 0, 0.8);
+  --aside-color:     rgba(0, 0, 0, 0.6);
+  --fig-cap-color:   rgba(0, 0, 0, 0.6);
+  /*-- Specify custom fonts ~~~ must be imported above   --*/
+  --heading-font:    sans-serif;
+  --mono-font:       monospace;
+  --body-font:       sans-serif;
+  --navbar-font:     sans-serif;  /* websites + blogs only */
+}
+
+/*-- ARTICLE METADATA --*/
+d-byline {
+  --heading-size:    0.6rem;
+  --heading-color:   rgba(0, 0, 0, 0.5);
+  --body-size:       0.8rem;
+  --body-color:      rgba(0, 0, 0, 0.8);
+}
+
+/*-- ARTICLE TABLE OF CONTENTS --*/
+.d-contents {
+  --heading-size:    18px;
+  --contents-size:   13px;
+}
+
+/*-- ARTICLE APPENDIX --*/
+d-appendix {
+  --heading-size:    15px;
+  --heading-color:   rgba(0, 0, 0, 0.65);
+  --text-size:       0.8em;
+  --text-color:      rgba(0, 0, 0, 0.5);
+}
+
+/*-- WEBSITE HEADER + FOOTER --*/
+/* These properties only apply to Distill sites and blogs  */
+
+.distill-site-header {
+  --title-size:       18px;
+  --text-color:       rgba(255, 255, 255, 0.8);
+  --text-size:        15px;
+  --hover-color:      white;
+  --bkgd-color:       #006B85; /* edited */
+}
+
+.distill-site-footer {
+  --text-color:       rgba(255, 255, 255, 0.8);
+  --text-size:        15px;
+  --hover-color:      white;
+  --bkgd-color:       #006B85; /* edited */
+}
+
+/*-- Additional custom styles --*/
+/* Add any additional CSS rules below --*/
+
+/*Change color of links*/
+a {
+color: #62A87C;
+}
+
+/* Change link appearance */
+d-article a {
+  border-bottom: 2px solid #006B85;
+  text-decoration: none;
+}
+
+/* mouse over link */
+/*#main a:hover {
+  color: #62A87C;
+}
+
+/* selected link */
+/*#main a:active {
+  color: #62A87C;
+}
+
+/*Change header colors*/
+h1, h2 {
+  color: #077187;
+}
+
+h3 {
+  color: #9C6B9C;
+}
+
+/*change body color*/
+
+body {
+  color: #686868;
+  font-size: 20px;
+}
+
+/*Change color of lists*/
+li {
+  color: #686868;
+  font-size: 16px;
+}
+
+/* Change bullets */
+ul > li::marker {
+  font-size: 1.125em;
+  color: #ff414b;
+}
+
+/*Change marker colors*/
+li::marker {
+  font-size: 1.125em;
+  color: #077187;
+}
+
+
+
+/*Change button colors*/
+/*.btn {
+  background-color: #9C6B9C  !important;
+  color: #FFFFFF;
+}*/</style>
+<style type="text/css">
+/* base style */
+
+/* FONT FAMILIES */
+
+:root {
+  --heading-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  --mono-default: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  --body-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+body,
+.posts-list .post-preview p,
+.posts-list .description p {
+  font-family: var(--body-font), var(--body-default);
+}
+
+h1, h2, h3, h4, h5, h6,
+.posts-list .post-preview h2,
+.posts-list .description h2 {
+  font-family: var(--heading-font), var(--heading-default);
+}
+
+d-article div.sourceCode code,
+d-article pre code {
+  font-family: var(--mono-font), var(--mono-default);
+}
+
+
+/*-- TITLE --*/
+d-title h1,
+.posts-list > h1 {
+  color: var(--title-color, black);
+}
+
+d-title h1 {
+  font-size: var(--title-size, 50px);
+}
+
+/*-- HEADERS --*/
+d-article h1,
+d-article h2,
+d-article h3,
+d-article h4,
+d-article h5,
+d-article h6 {
+  color: var(--header-color, rgba(0, 0, 0, 0.8));
+}
+
+/*-- BODY --*/
+d-article > p,  /* only text inside of <p> tags */
+d-article > ul, /* lists */
+d-article > ol {
+  color: var(--body-color, rgba(0, 0, 0, 0.8));
+  font-size: var(--body-size, 1.06rem);
+}
+
+
+/*-- CODE --*/
+d-article div.sourceCode code,
+d-article pre code {
+  font-size: var(--code-size, 14px);
+}
+
+/*-- ASIDE --*/
+d-article aside {
+  font-size: var(--aside-size, 12px);
+  color: var(--aside-color, rgba(0, 0, 0, 0.6));
+}
+
+/*-- FIGURE CAPTIONS --*/
+figure .caption,
+figure figcaption,
+.figure .caption {
+  font-size: var(--fig-cap-size, 13px);
+  color: var(--fig-cap-color, rgba(0, 0, 0, 0.6));
+}
+
+/*-- METADATA --*/
+d-byline h3 {
+  font-size: var(--heading-size, 0.6rem);
+  color: var(--heading-color, rgba(0, 0, 0, 0.5));
+}
+
+d-byline {
+  font-size: var(--body-size, 0.8rem);
+  color: var(--body-color, rgba(0, 0, 0, 0.8));
+}
+
+d-byline a,
+d-article d-byline a {
+  color: var(--body-color, rgba(0, 0, 0, 0.8));
+}
+
+/*-- TABLE OF CONTENTS --*/
+.d-contents nav h3 {
+  font-size: var(--heading-size, 18px);
+}
+
+.d-contents nav a {
+  font-size: var(--contents-size, 13px);
+}
+
+/*-- APPENDIX --*/
+d-appendix h3 {
+  font-size: var(--heading-size, 15px);
+  color: var(--heading-color, rgba(0, 0, 0, 0.65));
+}
+
+d-appendix {
+  font-size: var(--text-size, 0.8em);
+  color: var(--text-color, rgba(0, 0, 0, 0.5));
+}
+
+d-appendix d-footnote-list a.footnote-backlink {
+  color: var(--text-color, rgba(0, 0, 0, 0.5));
+}
+
+/*-- WEBSITE HEADER + FOOTER --*/
+.distill-site-header .title {
+  font-size: var(--title-size, 18px);
+  font-family: var(--navbar-font), var(--heading-default);
+}
+
+.distill-site-header a,
+.nav-dropdown .nav-dropbtn {
+  font-family: var(--navbar-font), var(--heading-default);
+}
+
+.nav-dropdown .nav-dropbtn {
+  color: var(--text-color, rgba(255, 255, 255, 0.8));
+  font-size: var(--text-size, 15px);
+}
+
+.distill-site-header a:hover,
+.nav-dropdown:hover .nav-dropbtn {
+  color: var(--hover-color, white);
+}
+
+.distill-site-header {
+  font-size: var(--text-size, 15px);
+  color: var(--text-color, rgba(255, 255, 255, 0.8));
+  background-color: var(--bkgd-color, #0F2E3D);
+}
+
+.distill-site-footer {
+  font-size: var(--text-size, 15px);
+  color: var(--text-color, rgba(255, 255, 255, 0.8));
+  background-color: var(--bkgd-color, #0F2E3D);
+}
+
+.distill-site-footer a:hover {
+  color: var(--hover-color, white);
+}</style>
 <!--/radix_placeholder_distill-->
   <script src="../../site_libs/header-attrs-2.14/header-attrs.js"></script>
   <script src="../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -2096,7 +2470,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"build-personal-webiste","description":"Build a personal website with Distill package","authors":[{"author":"Ya-Feng Wen","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2022-06-27T00:00:00.000-07:00","citationText":"Wen, 2022"}
+{"title":"Building a personal website","description":"Build a personal website with Distill and postcards package and host it on github","authors":[{"author":"Ya-Feng Wen","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2022-06-27T00:00:00.000-07:00","citationText":"Wen, 2022"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2120,10 +2494,10 @@ document.addEventListener('DOMContentLoaded', function() {
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>build-personal-webiste</h1>
+<h1>Building a personal website</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Build a personal website with Distill package</p></p>
+<p><p>Build a personal website with Distill and postcards package and host it on github</p></p>
 </div>
 
 <div class="d-byline">
@@ -2133,7 +2507,106 @@ document.addEventListener('DOMContentLoaded', function() {
 </div>
 
 <div class="d-article">
-<p>This post will demonstrate how to building a personal website with Distill package and host on github</p>
+<p>There are several R packages available to build a personal website with ease and aesthetic, including <a href="https://pkgs.rstudio.com/blogdown/">blogdown</a>, <a href="https://github.com/seankross/postcards">postcards</a> and <a href="https://rstudio.github.io/distill/">Distill</a>. Once the website is built, it can be easily hosted on the <a href="https://pages.github.com/">GitHub</a> or <a href="https://www.netlify.com/?utm_medium=ppc&amp;utm_source=google&amp;utm_campaign=DSA-Nonbrand-MaxC-US">Netlify</a> for free. This post will demonstrate how to build a personal website with a personal home page using <code>postcards</code>, blog posts and articles with <code>Distill</code>, and host such website on GitHub. The workflow is largely referenced from two sources: 1) the workshop on “<a href="https://www.apreshill.com/talk/2021-rstudio-global/">Introduce yourself online</a>” by Alison Hill and 2) “<a href="https://www.youtube.com/watch?v=RYf5HqU1pI4">Building websites in RStudio</a>” by Maria Tackett hosted by R-Ladies Baltimore (The github repo for this talk can be found <a href="https://github.com/matackett/rladies-build-websites">here</a>).</p>
+<h3 id="steps-overview">Steps overview</h3>
+<ol type="1">
+<li>Create a github repo for personal website</li>
+<li>Use <code>Distill</code> to create a <strong>Distill blog</strong></li>
+<li>Restart project and Build website</li>
+<li>Use <code>postcards</code> to create a personal landing page</li>
+<li>Create a personal theme CSS if needed</li>
+<li>Create posts</li>
+<li>Deploy the site on GitHub and repeat step 6 and 7</li>
+</ol>
+<h3 id="steps-in-detail">Steps in detail</h3>
+<ol type="1">
+<li>Create a github repo for personal website</li>
+</ol>
+<p><img src="images/personal_site_github_setup.png" /></p>
+<ul>
+<li>The repo name needs to contain <strong>github.io</strong></li>
+<li>The repo name will be the URL for the website (can change later)</li>
+<li>Edit “About” section so others (including yourself) know the purpose of this repo easily</li>
+<li>Clone the repo by copying the HTTPS URL</li>
+<li>Start a new RStudio project –&gt; Version Control –&gt; Clone Git Repository –&gt; Paste the Repository URL –&gt; Create Project</li>
+</ul>
+<p><img src="images/personal_site_RStudio_setup.png" /></p>
+<ol start="2" type="1">
+<li>Use <code>Distill</code> to create a <strong>Distill blog</strong></li>
+</ol>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='co'># install.packages("distill")</span></span>
+<span><span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://github.com/rstudio/distill'>distill</a></span><span class='op'>)</span></span>
+<span></span>
+<span><span class='co'># gh_pages, configure the site for publishing using GitHub Pages</span></span>
+<span><span class='fu'><a href='https://pkgs.rstudio.com/distill/reference/create_website.html'>create_blog</a></span><span class='op'>(</span>dir <span class='op'>=</span> <span class='st'>"."</span>, title <span class='op'>=</span> <span class='st'>"Personal Website"</span>, gh_pages <span class='op'>=</span> <span class='cn'>TRUE</span><span class='op'>)</span> </span></code></pre>
+</div>
+</div>
+<p><img src="images/site_yml.png" /></p>
+<ul>
+<li>_site.yml: Website configuration file
+<ul>
+<li>output_dir: “docs”: The <em>docs</em> folder contains all the components for the website which will be used when deploy the website on GitHub.</li>
+<li>navbar: Navigation bar at the top of page</li>
+<li>text: Text displayed in navigation bar</li>
+<li>href: (Relative) link to the page in the <em>docs</em> folder</li>
+</ul></li>
+<li>index.Rmd: Homepage for the website (will be replaced with the <code>postcards</code> page in the next step)</li>
+</ul>
+<p>Note that you can also choose to create a <strong>Distill website</strong>.</p>
+<p>The difference between blog and website is explained in the <a href="https://rstudio.github.io/distill/website.html">introduction</a> of the <code>Distill</code> package. Basically, a <em>website</em> is a collection of pages (be created with Distill Article) and a <em>blog</em> is a website with a special page called “listing page” to collect blog posts and display key metadata (such as publication date, author, title, categories, etc. in the YAML of a Rmarkdown file). In addition, using a <strong>Distill blog</strong> structure prevents re-rendering of each post when the site is rebuilt so that when certain R packages got updated, these post created with older version can still be displayed properly. On the other hand, using a <strong>Distill website</strong> structure, <em>website</em> pages and root pages of <em>blogs</em> are re-rendered when the site is rebuilt.</p>
+<ol start="3" type="1">
+<li>Restart project and Build website</li>
+</ol>
+<p>Restart project so this project can be recognized as a website. Then use the <em>Build Website</em> to build the website locally.</p>
+<p><img src="images/build_website_RStudio.png" /></p>
+<ol start="4" type="1">
+<li>Use <code>postcards</code> to create a personal landing page</li>
+</ol>
+<p>Create a Hugo Academic like homepage using the “trestles” template in <code>postcards</code>. Modify the content as see fit.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='co'># install.packages("postcards")</span></span>
+<span><span class='fu'><a href='https://pkgs.rstudio.com/distill/reference/create_article.html'>create_article</a></span><span class='op'>(</span>file <span class='op'>=</span> <span class='st'>"index"</span>, template <span class='op'>=</span> <span class='st'>"trestles"</span>, package <span class='op'>=</span> <span class='st'>"postcards"</span><span class='op'>)</span></span>
+<span></span>
+<span><span class='co'># alternatively</span></span>
+<span><span class='fu'>postcards</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/postcards/man/create_postcard.html'>create_postcard</a></span><span class='op'>(</span>file <span class='op'>=</span> <span class='st'>"index.Rmd"</span>, template <span class='op'>=</span> <span class='st'>"trestles"</span><span class='op'>)</span></span></code></pre>
+</div>
+</div>
+<p><img src="images/index.png" /></p>
+<ol start="5" type="1">
+<li>Create a personal <em>blog</em> theme if needed</li>
+</ol>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='co'># apply the theme to entire website</span></span>
+<span><span class='fu'><a href='https://pkgs.rstudio.com/distill/reference/create_theme.html'>create_theme</a></span><span class='op'>(</span><span class='st'>"theme"</span><span class='op'>)</span></span></code></pre>
+</div>
+</div>
+<p><img src="images/theme.png" /> Make sure to include customized <em>theme</em> in _site.yml so the effect will be applied to the entire website.</p>
+<p><img src="images/site_yml_theme.png" /></p>
+<p>Detail information on customizing the theme CSS file can be found under the <a href="https://rstudio.github.io/distill/website.html?panelset=themed-site#theming">Theming</a> section of the <code>Distill</code> package website.</p>
+<ol start="6" type="1">
+<li>Create post</li>
+</ol>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='fu'><a href='https://pkgs.rstudio.com/distill/reference/create_post.html'>create_post</a></span><span class='op'>(</span>title <span class='op'>=</span> <span class='st'>"First post"</span>, </span>
+<span>            author <span class='op'>=</span> <span class='st'>"Ya-Feng Wen"</span>, </span>
+<span>            date <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/Sys.time.html'>Sys.Date</a></span><span class='op'>(</span><span class='op'>)</span><span class='op'>)</span></span></code></pre>
+</div>
+</div>
+<p>This create a sub folder under **_posts** folder for each post.</p>
+<ol start="7" type="1">
+<li>Deploy the site on GitHub</li>
+</ol>
+<ul>
+<li>Push all the update files to GitHub</li>
+<li>Under <em>Settings</em> find the <em>Pages</em> on the left hand navigation bar. This will show the configuration for the GitHub Pages. Change the Source to /docs which contains all the necessary components for the website.</li>
+</ul>
+<p><img src="images/github_deploy.png" /></p>
+<h3 id="congratulations-to-have-a-personal-website">Congratulations to have a personal website!</h3>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
