@@ -1,5 +1,5 @@
 ---
-title: "Ya-Feng Wen"
+title: ""
 site: distill::distill_website
 listing: posts
 ---
